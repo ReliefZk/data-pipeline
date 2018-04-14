@@ -2,12 +2,12 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2017 All Rights Reserved.
  */
-package com.reliefzk.middleware.extension;
+package com.reliefzk.middleware.dp.extension;
 
 
 import com.google.common.base.Stopwatch;
-import com.reliefzk.middleware.pipeline.*;
-import com.reliefzk.middleware.pipeline.valve.ConditionValve;
+import com.reliefzk.middleware.dp.pipeline.*;
+import com.reliefzk.middleware.dp.pipeline.valve.ConditionValve;
 
 import java.util.concurrent.TimeUnit;
 
@@ -71,7 +71,7 @@ public class ConditionPipelineImpl implements Pipeline {
 
         /**
          * 框架不处理任何异常， 请各valve实现者自己处理异常，否则会影响后续valve
-         * @throws com.reliefzk.middleware.pipeline.PipelineException
+         * @throws PipelineException
          */
         @Override
         public void invokeNext() throws PipelineException {

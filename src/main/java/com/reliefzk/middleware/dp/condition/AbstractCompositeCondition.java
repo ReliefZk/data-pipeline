@@ -1,7 +1,7 @@
-package com.reliefzk.middleware.condition;
+package com.reliefzk.middleware.dp.condition;
 
 
-import com.reliefzk.middleware.pipeline.Condition;
+import com.reliefzk.middleware.dp.pipeline.Condition;
 
 /**
  * 组合式的condition基类

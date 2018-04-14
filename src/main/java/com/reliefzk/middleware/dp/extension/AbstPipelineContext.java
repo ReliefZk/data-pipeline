@@ -1,12 +1,12 @@
-package com.reliefzk.middleware.extension;
+package com.reliefzk.middleware.dp.extension;
 
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
-import com.reliefzk.middleware.pipeline.PipelineContext;
-import com.reliefzk.middleware.pipeline.PipelineException;
-import com.reliefzk.middleware.pipeline.PipelineInvocationHandle;
-import com.reliefzk.middleware.pipeline.Valve;
+import com.reliefzk.middleware.dp.pipeline.PipelineContext;
+import com.reliefzk.middleware.dp.pipeline.PipelineException;
+import com.reliefzk.middleware.dp.pipeline.PipelineInvocationHandle;
+import com.reliefzk.middleware.dp.pipeline.Valve;
 
 import java.util.Map;
 

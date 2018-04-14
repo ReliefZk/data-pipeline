@@ -1,8 +1,8 @@
-package com.reliefzk.middleware.pipeline.valve;
+package com.reliefzk.middleware.dp.pipeline.valve;
 
-import com.reliefzk.middleware.pipeline.Condition;
-import com.reliefzk.middleware.pipeline.PipelineContext;
-import com.reliefzk.middleware.pipeline.PipelineInvocationHandle;
+import com.reliefzk.middleware.dp.pipeline.PipelineInvocationHandle;
+import com.reliefzk.middleware.dp.pipeline.Condition;
+import com.reliefzk.middleware.dp.pipeline.PipelineContext;
 
 /**
  * 当条件满足时，执行循环体。
